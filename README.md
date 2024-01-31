@@ -17,9 +17,10 @@
 <code><img height="30" src="https://github.com/tomchen/stack-icons/raw/master/logos/bootstrap.svg"></code>
 <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
 <code><img height="30" src="https://github.com/LakshayGupta11/Full-Stack-Web-Development-for-displaying-windows-system-resource-utilization/assets/140741956/e29cb89d-e8c3-4829-8089-a3fcf841e018"></code>
-<code><img height="30" src="https://www.google.com/url?sa=i&url=https%3A%2F%2F1000logos.net%2Fmongodb-logo%2F&psig=AOvVaw1DepjY6_m1ApJYbxSXMaI4&ust=1706821738287000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCND8v8zEiIQDFQAAAAAdAAAAABAE"></code>
-<code><img height="30" src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.bairesdev.com%2Fwp-content%2Fuploads%2F2021%2F07%2FExpressjs.svg&tbnid=tpirjvQ2ntR29M&vet=12ahUKEwjStNrvxIiEAxWsamwGHZLfBWcQMygGegQIARBU..i&imgrefurl=https%3A%2F%2Fwww.bairesdev.com%2Fblog%2Fwhat-is-express-js%2F&docid=HaUSfPxY2SAroM&w=3938&h=2475&q=logo%20express%20js&ved=2ahUKEwjStNrvxIiEAxWsamwGHZLfBWcQMygGegQIARBU"></code>
-<code><img height="30" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fnextbigtechnology.com%2Fwhat-is-ajax%2F&psig=AOvVaw0iwRzcSPt9zRDbPbMfvKY-&ust=1706821896830000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKCChpjFiIQDFQAAAAAdAAAAABAE"></code>
+<code><img height="30" src="https://github.com/LakshayGupta11/Full-Stack-Web-Development-for-displaying-windows-system-resource-utilization/assets/140741956/068d9123-dae6-4200-9bb0-2a1622ab683e"></code>
+<code><img height="30" src="https://github.com/LakshayGupta11/Full-Stack-Web-Development-for-displaying-windows-system-resource-utilization/assets/140741956/37f3cd45-73b2-416b-a744-b37f3e2d9109"></code>
+<code><img height="30" src="https://github.com/LakshayGupta11/Full-Stack-Web-Development-for-displaying-windows-system-resource-utilization/assets/140741956/98ed9f9e-7705-43ee-a0bc-f5694c32763a"></code>
+
 
 ##Technical Learnings
 - Full-Stack Development Principles: Understanding the intricacies of both frontend and backend development and their integration into a cohesive web application.
