@@ -22,12 +22,17 @@
 <code><img height="30" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fnextbigtechnology.com%2Fwhat-is-ajax%2F&psig=AOvVaw0iwRzcSPt9zRDbPbMfvKY-&ust=1706821896830000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKCChpjFiIQDFQAAAAAdAAAAABAE"></code>
 
 ##Technical Learnings
- Full-Stack Development Principles: Understanding the intricacies of both frontend and backend development and their integration into a cohesive web application.
- Working with Real-Time System Metrics: Learning to capture and process real-time system metrics (CPU usage, memory utilization, disk usage, and network traffic) using Python libraries like psutil.
- Database Management: Utilizing MongoDB for storing and managing system metrics efficiently, comprehending NoSQL database principles, and handling database operations.
- AJAX and Asynchronous Operations: Implementing AJAX requests for asynchronous data retrieval, enabling dynamic updates on the webpage without requiring complete page reloads.
- User Interface (UI) and User Experience (UX) Design: Applying HTML, CSS, and Bootstrap to create an intuitive and responsive dashboard, ensuring a seamless user experience.
- Back-End Server Development: Working with Express.js and Node.js for server-side development, routing HTTP requests, and handling data retrieval from the database.
+- Full-Stack Development Principles: Understanding the intricacies of both frontend and backend development and their integration into a cohesive web application.
+
+-Working with Real-Time System Metrics: Learning to capture and process real-time system metrics (CPU usage, memory utilization, disk usage, and network traffic) using Python libraries like psutil.
+
+-Database Management: Utilizing MongoDB for storing and managing system metrics efficiently, comprehending NoSQL database principles, and handling database operations.
+
+-AJAX and Asynchronous Operations: Implementing AJAX requests for asynchronous data retrieval, enabling dynamic updates on the webpage without requiring complete page reloads.
+
+-User Interface (UI) and User Experience (UX) Design: Applying HTML, CSS, and Bootstrap to create an intuitive and responsive dashboard, ensuring a seamless user experience.
+
+-Back-End Server Development: Working with Express.js and Node.js for server-side development, routing HTTP requests, and handling data retrieval from the database.
 
 ##File Structure Overview:
 1. /mongodb/public/index.ejs: The main HTML template file that renders the dashboard interface.
@@ -105,8 +110,8 @@ Relevance in IT Operations: Highly relevant for system administrators, IT profes
 Serves as an educational tool for students and professionals to understand system resource utilization concepts and practical implementation.
 
 ##Future Scopes:
- Additional System Metrics: Expand the scope by incorporating additional system metrics or performance indicators for a more comprehensive system analysis. This might include temperature monitoring, process-specific resource utilization, etc.
- Customizable Visualization: Implement graphical representations (charts, graphs) in addition to tabular formats for visualizing system resource data, providing more insightful and comparative analysis.
- User Authentication and Profiles: Integrate user authentication mechanisms and profiles to offer personalized dashboards, allowing multiple users to monitor specific system resources based on their roles or preferences.
- Alerting Mechanisms: Implement alerting functionalities to notify users or administrators when system resource thresholds are breached or specific conditions are met, enabling proactive management.
- Historical Data Analysis Tools: Develop tools for advanced historical data analysis, trend identification, and forecasting based on stored system metrics, aiding in predictive analytics for system maintenance.
+- Additional System Metrics: Expand the scope by incorporating additional system metrics or performance indicators for a more comprehensive system analysis. This might include temperature monitoring, process-specific resource utilization, etc.
+- Customizable Visualization: Implement graphical representations (charts, graphs) in addition to tabular formats for visualizing system resource data, providing more insightful and comparative analysis.
+- User Authentication and Profiles: Integrate user authentication mechanisms and profiles to offer personalized dashboards, allowing multiple users to monitor specific system resources based on their roles or preferences.
+- Alerting Mechanisms: Implement alerting functionalities to notify users or administrators when system resource thresholds are breached or specific conditions are met, enabling proactive management.
+- Historical Data Analysis Tools: Develop tools for advanced historical data analysis, trend identification, and forecasting based on stored system metrics, aiding in predictive analytics for system maintenance.
