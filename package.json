@@ -1,0 +1,14 @@
+{
+    "name": "mongodb-ejs-example",
+    "version": "1.0.0",
+    "description": "Example application to display MongoDB data using EJS",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "ejs": "^3.1.6",
+        "express": "^4.18.2",
+        "mongodb": "^4.0.0"
+    }
+}

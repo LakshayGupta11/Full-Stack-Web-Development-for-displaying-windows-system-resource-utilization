@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const now = new Date();
+            const startDateInput = document.getElementById("startDate");
+            const startTimeInput = document.getElementById("startTime");
+            endDateInput.max = new Date().toISOString().split("T")[0];
+            const endTimeInput = document.getElementById("endTime");
+    
+            // Set max attributes for date and time inputs
+            startDateInput.max = now.toISOString().split("T")[0];
+            startTimeInput.max = now.toISOString().split("T")[1].substring(0, 5);
+            endDateInput.max = now.toISOString().split("T")[0];
+            endTimeInput.max = now.toISOString().split("T")[1].substring(0, 5);
+    
+            // Calculate min date and time for start inputs
+            const sevenDaysAgo = new Date();
+            sevenDaysAgo.setDate(now.getDate() - 7);
+            startDateInput.min = sevenDaysAgo.toISOString().split("T")[0];
+            startTimeInput.min = "00:00";
+    
+            // Set initial values to start inputs
+            startDateInput.value = startDateInput.min;
+            startTimeInput.value = startTimeInput.min;
+    
+            // Set initial values to end inputs
+            endDateInput.value = new Date().toISOString().split("T")[0];
+            endTimeInput.value = new Date().toISOString().split("T")[1].substring(0, 5);
+        });
+    </script>
+
+    <title>System Status</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="my-4">System Metrics Status Dashboard</h1>
+
+        <div class="form-wrapper">
+            <h2 class="form-title">Select Timestamp Range</h2>
+            <form id="timestampForm">
+                <!-- Add Date and Time inputs for selecting range -->
+                <div class="datetime-input">
+                    <div class="date-input">
+                        <label class="form-label" for="startDate">Start Date:</label>
+                        <input type="date" class="form-control" id="startDate" name="startDate">
+                    </div>
+                    <div class="date-input">
+                        <label class="form-label" for="endDate">End Date:</label>
+                        <input type="date" class="form-control" id="endDate" name="endDate">
+                    </div>
+                </div>
+                <div class="datetime-input">
+                    <div class="time-input">
+                        <label class="form-label" for="startTime">Start Time:</label>
+                        <input type="time" class="form-control" id="startTime" name="startTime">
+                    </div>
+                    <div class="time-input">
+                        <label class="form-label" for="endTime">End Time:</label>
+                        <input type="time" class="form-control" id="endTime" name="endTime">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Show Data</button>
+            </form>
+        </div>
+        
+
+
+    <!-- <div class="content"> -->
+        <div class="container" id="table-container">
+            <h2 class="mb-5">System Stats</h2>
+            <div class="table-responsive">
+                <table class="table table-bordered custom-table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Timestamp</th>
+                            <th scope="col">CPU Usage (%)</th>
+                            <th scope="col">Memory Usage (%)</th>
+                            <th scope="col">Disk Usage (%)</th>
+                            <th scope="col">Network Bytes Sent</th>
+                            <th scope="col">Network Bytes Received</th>
+                        </tr>
+                    </thead>
+                    <tbody id="data-body">
+                        <% collectionData.forEach(item => { %>
+                            <tr>
+                                <td><%= item.timestamp %></td>
+                                <td><%= item.cpu_usage %></td>
+                                <td><%= item.memory_percent %></td>
+                                <td><%= item.disk_usage_percent %></td>
+                                <td><%= item.network_bytes_sent %></td>
+                                <td><%= item.network_bytes_received %></td>
+                            </tr>
+                        <% }); %>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    
+    <!-- </div> -->
+
+    <!-- Include JavaScript libraries if needed -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
