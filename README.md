@@ -45,27 +45,31 @@ b.	Virtual memory usage (RAM)
 c.	Disk Usage 
 d.	Network Usage
  
-<code><img height="100" src="https://drive.google.com/file/d/1oBG5eQ8gEpuF9mTOoaigxW7wOq5mg0G_/view?usp=sharing"></code>
+![1](https://github.com/LakshayGupta11/Full-Stack-Web-Development-for-displaying-windows-system-resource-utilization/assets/140741956/7764e5db-cfa6-40a6-8dfe-d83bfbf056cc)
 
 2.	Data stored by python script
  
+![2](https://github.com/LakshayGupta11/Full-Stack-Web-Development-for-displaying-windows-system-resource-utilization/assets/140741956/aa95e63f-ee68-40c5-be39-a91955c8e393)
 
-Fig 4.2 Data Stored by python script on MongoDB
 
 3.	Server file is run to run the port on 3000.
  
+ ![3](https://github.com/LakshayGupta11/Full-Stack-Web-Development-for-displaying-windows-system-resource-utilization/assets/140741956/adedc1d2-d682-4b8d-950a-6f2ca6224357)
 
-Fig 4.3 Server file running
 
 4.	Port 3000 is opened as localhost in browser
-  
-Fig 4.4 System Metrics Status Dashboard
+
+![4](https://github.com/LakshayGupta11/Full-Stack-Web-Development-for-displaying-windows-system-resource-utilization/assets/140741956/a571a722-aacf-4f5e-9afc-b1f1311bf833)
+
 
 5.	Form is filled to enter the details
  
-Fig 4.5 Filling form on dashboard
+![5](https://github.com/LakshayGupta11/Full-Stack-Web-Development-for-displaying-windows-system-resource-utilization/assets/140741956/0c5eb9e4-dc73-4c0f-8812-ebd8533cb1ba)
+
 
 6.	Filtered results are displayed.
+
+![6](https://github.com/LakshayGupta11/Full-Stack-Web-Development-for-displaying-windows-system-resource-utilization/assets/140741956/d0b74cf2-cff8-4fa2-8429-39dc03970b20)
 
 
 ##Advantages of this project
