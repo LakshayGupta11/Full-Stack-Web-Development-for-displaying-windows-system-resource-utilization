@@ -116,3 +116,5 @@ Serves as an educational tool for students and professionals to understand syste
 - User Authentication and Profiles: Integrate user authentication mechanisms and profiles to offer personalized dashboards, allowing multiple users to monitor specific system resources based on their roles or preferences.
 - Alerting Mechanisms: Implement alerting functionalities to notify users or administrators when system resource thresholds are breached or specific conditions are met, enabling proactive management.
 - Historical Data Analysis Tools: Develop tools for advanced historical data analysis, trend identification, and forecasting based on stored system metrics, aiding in predictive analytics for system maintenance.
+
+#This project was made as a part of my training at C-DOT in order to implement a sample model to present the usage statistics of various VMs at C-DOT Facilities across India on the CAP portal of C-DOT.
