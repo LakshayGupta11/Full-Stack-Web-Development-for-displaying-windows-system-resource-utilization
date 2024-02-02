@@ -1,13 +1,13 @@
 ### Full-Stack-Web-Development-for-displaying-windows-system-resource-utilization
-#Full Stack Web Development Project
+# Full Stack Web Development Project
 
-#This Full Stack Webpage Development project is a comprehensive endeavor aimed at creating a dynamic and user-friendly web application. The primary objective is to develop an intuitive interface for displaying and monitoring real-time Windows system resource utilization metrics. This initiative integrates diverse technologies to collect, store, and present critical system metrics, including CPU usage, memory consumption, disk usage, and network traffic.
--The project encapsulates a multifaceted approach that encompasses both frontend and backend development paradigms. On the backend, Python's psutil library is leveraged to capture detailed system metrics at regular intervals. These metrics are then stored within a MongoDB database, preserving a historical record of the system's performance over time.
--The frontend component of the project entails the creation of an interactive and visually engaging web interface. It incorporates HTML, CSS, Bootstrap, and JavaScript to build a responsive dashboard. The dashboard allows users to specify custom date and time ranges for querying system resource data. Leveraging AJAX requests, the frontend communicates seamlessly with the backend, retrieving and displaying pertinent system metrics based on the user-defined timeframe.
--The architecture facilitates a user-friendly experience, empowering users to analyze system resource utilization efficiently. By inputting specific start and end dates along with corresponding start and end times, users gain access to a detailed tabular representation of system metrics. This includes timestamps, CPU usage percentages, memory utilization, disk usage details, network bytes sent, and received data.
--Moreover, the project aligns with industry-standard practices and principles of full-stack development. It underscores the importance of real-time data visualization and analysis, offering stakeholders valuable insights into the system's performance and aiding in decision-making processes.
--The significance of this project lies in its potential to revolutionize how system administrators and users interact with and comprehend Windows system resource utilization. The interactive dashboard serves as a powerful tool for monitoring and evaluating system performance, providing a comprehensive view of resource utilization patterns over specific time intervals.
--Through this project, the aim is to deliver a robust, user-centric web application that not only showcases technological prowess but also contributes to enhancing the understanding and management of Windows system resources in a user-friendly and accessible manner.
+# This Full Stack Webpage Development project is a comprehensive endeavor aimed at creating a dynamic and user-friendly web application. The primary objective is to develop an intuitive interface for displaying and monitoring real-time Windows system resource utilization metrics. This initiative integrates diverse technologies to collect, store, and present critical system metrics, including CPU usage, memory consumption, disk usage, and network traffic.
+- The project encapsulates a multifaceted approach that encompasses both frontend and backend development paradigms. On the backend, Python's psutil library is leveraged to capture detailed system metrics at regular intervals. These metrics are then stored within a MongoDB database, preserving a historical record of the system's performance over time.
+- The frontend component of the project entails the creation of an interactive and visually engaging web interface. It incorporates HTML, CSS, Bootstrap, and JavaScript to build a responsive dashboard. The dashboard allows users to specify custom date and time ranges for querying system resource data. Leveraging AJAX requests, the frontend communicates seamlessly with the backend, retrieving and displaying pertinent system metrics based on the user-defined timeframe.
+- The architecture facilitates a user-friendly experience, empowering users to analyze system resource utilization efficiently. By inputting specific start and end dates along with corresponding start and end times, users gain access to a detailed tabular representation of system metrics. This includes timestamps, CPU usage percentages, memory utilization, disk usage details, network bytes sent, and received data.
+- Moreover, the project aligns with industry-standard practices and principles of full-stack development. It underscores the importance of real-time data visualization and analysis, offering stakeholders valuable insights into the system's performance and aiding in decision-making processes.
+- The significance of this project lies in its potential to revolutionize how system administrators and users interact with and comprehend Windows system resource utilization. The interactive dashboard serves as a powerful tool for monitoring and evaluating system performance, providing a comprehensive view of resource utilization patterns over specific time intervals.
+- Through this project, the aim is to deliver a robust, user-centric web application that not only showcases technological prowess but also contributes to enhancing the understanding and management of Windows system resources in a user-friendly and accessible manner.
 
 ## Built with 🛠️
 <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
@@ -22,20 +22,20 @@
 <code><img height="30" src="https://github.com/LakshayGupta11/Full-Stack-Web-Development-for-displaying-windows-system-resource-utilization/assets/140741956/98ed9f9e-7705-43ee-a0bc-f5694c32763a"></code>
 
 
-##Technical Learnings
+## Technical Learnings
 - Full-Stack Development Principles: Understanding the intricacies of both frontend and backend development and their integration into a cohesive web application.
 
--Working with Real-Time System Metrics: Learning to capture and process real-time system metrics (CPU usage, memory utilization, disk usage, and network traffic) using Python libraries like psutil.
+- Working with Real-Time System Metrics: Learning to capture and process real-time system metrics (CPU usage, memory utilization, disk usage, and network traffic) using Python libraries like psutil.
 
--Database Management: Utilizing MongoDB for storing and managing system metrics efficiently, comprehending NoSQL database principles, and handling database operations.
+- Database Management: Utilizing MongoDB for storing and managing system metrics efficiently, comprehending NoSQL database principles, and handling database operations.
 
--AJAX and Asynchronous Operations: Implementing AJAX requests for asynchronous data retrieval, enabling dynamic updates on the webpage without requiring complete page reloads.
+- AJAX and Asynchronous Operations: Implementing AJAX requests for asynchronous data retrieval, enabling dynamic updates on the webpage without requiring complete page reloads.
 
--User Interface (UI) and User Experience (UX) Design: Applying HTML, CSS, and Bootstrap to create an intuitive and responsive dashboard, ensuring a seamless user experience.
+- User Interface (UI) and User Experience (UX) Design: Applying HTML, CSS, and Bootstrap to create an intuitive and responsive dashboard, ensuring a seamless user experience.
 
--Back-End Server Development: Working with Express.js and Node.js for server-side development, routing HTTP requests, and handling data retrieval from the database.
+- Back-End Server Development: Working with Express.js and Node.js for server-side development, routing HTTP requests, and handling data retrieval from the database.
 
-##File Structure Overview:
+## File Structure Overview:
 1. /mongodb/public/index.ejs: The main HTML template file that renders the dashboard interface.
 2. /mongodb/public/js/main.js: Contains JavaScript code responsible for handling user interactions and AJAX requests on the dashboard.
 3. /mongodb/server.js: The main Node.js server file handling backend logic, database connections, and HTTP routes.
@@ -43,7 +43,7 @@
 5. /mongodb/system_stats.py: A Python script responsible for collecting Windows system metrics and storing them in a MongoDB database.
 6. /mongodb/public/style.css: This file is used to add styles to the webpage containing fonts, tables and forms.
 
-##Working
+## Working
 
 1.	System_stats python script is run to store the system metrics from the current time and date to the date and time 7 days ago. Metrics are stored for the interval of every 2 minutes including:
 a.	CPU usage percentage
@@ -78,43 +78,43 @@ d.	Network Usage
 ![6](https://github.com/LakshayGupta11/Full-Stack-Web-Development-for-displaying-windows-system-resource-utilization/assets/140741956/d0b74cf2-cff8-4fa2-8429-39dc03970b20)
 
 
-##Advantages of this project
+## Advantages of this project
 
--Enhanced System Monitoring and Analysis:
+- Enhanced System Monitoring and Analysis:
 Real-Time Insights: Provides real-time monitoring and analysis of Windows system resource utilization, enabling users to gain immediate insights into CPU usage, memory consumption, disk utilization, and network traffic.
 
--Granular Data Representation:
+- Granular Data Representation:
 Presents detailed metrics in an organized and structured manner, facilitating a comprehensive understanding of system performance over specific time intervals.
 
--User-Centric Interface:
+- User-Centric Interface:
 Intuitive Dashboard: Offers an intuitive and user-friendly dashboard interface, allowing users to select custom date and time ranges to view system metrics, enhancing usability and accessibility.
 
--Visual Representation:
+- Visual Representation:
 Visualizes system resource data in a tabular format, making it easier for users to interpret and analyze the performance trends of their Windows systems.
 
--Operational Efficiency and Decision-Making:
+- Operational Efficiency and Decision-Making:
 Performance Optimization: Helps in identifying system bottlenecks, inefficiencies, or overutilization of resources, aiding in optimizing system performance and resource allocation.
 
--Resource Planning:
+- Resource Planning:
 Facilitates informed decision-making regarding system maintenance schedules, upgrades, or allocation of resources based on historical data and trends.
 
--Technological and Skill Development:
+- Technological and Skill Development:
 Skill Enhancement: Provides hands-on experience in full-stack development, database management, data visualization, and backend-server communication, enhancing technical skill sets.
 
--Understanding System Dynamics:
+- Understanding System Dynamics:
 Fosters a deeper understanding of system dynamics, system resource monitoring, and the significance of real-time data in decision-making processes.
 
--Practical Applications and Industry Relevance:
+- Practical Applications and Industry Relevance:
 Relevance in IT Operations: Highly relevant for system administrators, IT professionals, and organizations requiring efficient system monitoring tools to ensure optimal system performance.
 
--Educational and Training Purposes:
+- Educational and Training Purposes:
 Serves as an educational tool for students and professionals to understand system resource utilization concepts and practical implementation.
 
-##Future Scopes:
+## Future Scopes:
 - Additional System Metrics: Expand the scope by incorporating additional system metrics or performance indicators for a more comprehensive system analysis. This might include temperature monitoring, process-specific resource utilization, etc.
 - Customizable Visualization: Implement graphical representations (charts, graphs) in addition to tabular formats for visualizing system resource data, providing more insightful and comparative analysis.
 - User Authentication and Profiles: Integrate user authentication mechanisms and profiles to offer personalized dashboards, allowing multiple users to monitor specific system resources based on their roles or preferences.
 - Alerting Mechanisms: Implement alerting functionalities to notify users or administrators when system resource thresholds are breached or specific conditions are met, enabling proactive management.
 - Historical Data Analysis Tools: Develop tools for advanced historical data analysis, trend identification, and forecasting based on stored system metrics, aiding in predictive analytics for system maintenance.
 
-#This project was made as a part of my training at C-DOT in order to implement a sample model to present the usage statistics of various VMs at C-DOT Facilities across India on the CAP portal of C-DOT.
+This project was made as a part of my training at C-DOT in order to implement a sample model to present the usage statistics of various VMs at C-DOT Facilities across India on the CAP portal of C-DOT.
